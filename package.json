@@ -1,0 +1,36 @@
+{
+  "name": "firebat",
+  "version": "0.1.0",
+  "description": "Use Firebase Database REST API with ndjson files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "firebat": "./bin/firebat.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdreid/firebat.git"
+  },
+  "keywords": [
+    "firebase",
+    "database",
+    "rest",
+    "api",
+    "ndjson",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tdreid/firebat/issues"
+  },
+  "homepage": "https://github.com/tdreid/firebat#readme",
+  "dependencies": {
+    "commander": "^6.1.0",
+    "config": "^3.3.2",
+    "ndjson-parse": "^1.0.4",
+    "request": "^2.88.2"
+  }
+}
